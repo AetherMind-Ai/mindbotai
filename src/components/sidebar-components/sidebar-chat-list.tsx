@@ -78,7 +78,7 @@ const SidebarChatList = ({ sidebarList }: any) => {
           <div className="mt-5">
             <p>
               You'll no longer see this chat here. This will also delete related
-              activity like prompts, responses, and feedback from your Gemini
+              activity like prompts, responses, and feedback from your MindBot
               Apps Activity.
             </p>
             <Link href="/" className="underline text-accentBlue">
