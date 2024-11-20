@@ -141,7 +141,7 @@ const InputPrompt = ({ user }: { user?: User }) => {
 
   const handleKeyDown = useCallback(
     (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
-    if (!user) { setToast('Please sign in to use Gemini!') }
+    if (!user) { setToast('Please sign in to use MindBot!') }
       if (e.key === "Enter" && !e.shiftKey) {
         cancelRef.current = false;
         generateMsg();
@@ -193,7 +193,7 @@ const InputPrompt = ({ user }: { user?: User }) => {
         <InputActions handleCancel={handleCancel} handleImageUpload={handleImageUpload} generateMsg={generateMsg} />
 
       </div>
-      <p className="text-xs font-light opacity-80 text-center">Gemini may display inaccurate info, including about people, so double-check its responses. <Link className="underline" href="/">Your privacy & Gemini Apps</Link></p>
+      <p className="text-xs font-light opacity-80 text-center">MindBot may display inaccurate info, including about people</p>
     </div>
   );
 };
