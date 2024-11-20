@@ -21,7 +21,7 @@ const GeminiLogo = () => {
           >
             <span className="flex items-center gap-2">
               <SiGooglegemini className="text-lg text-[#4E82EE]" />
-              MindBot
+              MindBot 1.2
             </span>
             <FaRegCheckCircle className="text-xl" />
           </DevButton>
