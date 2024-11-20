@@ -9,9 +9,9 @@ const OutfitFont = Outfit({
 
 
 export const metadata: Metadata = {
-  title: "Dev Gemini Clone",
-  description: "A Gemini-inspired AI assistant built with Next.js",
-  keywords: ["AI", "assistant", "Gemini", "clone", "Next.js"],
+  title: "MindBot",
+  description: "A Ai Chatbot assistant built with Next.js",
+  keywords: ["AI", "assistant", "MindBot", "MindBot Ai", "clone", "Next.js"],
   authors: [{ name: "Your Name" }],
   creator: "Your Name or Company",
   publisher: "Your Name or Company",
